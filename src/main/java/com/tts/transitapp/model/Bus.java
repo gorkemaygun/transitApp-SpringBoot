@@ -1,8 +1,6 @@
 package com.tts.transitapp.model;
 
-import lombok.Data;
 
-@Data
 public class Bus {
     public String ADHERENCE;
     public String BLOCKID;

@@ -19,8 +19,7 @@ public class TransitController {
 	
     @GetMapping("/buses")
     public String getBusesPage(Model model){
-        BusRequest busRequest = new BusRequest();
-        model.addAttribute("request", busRequest);
+        model.addAttribute("request",new BusRequest());
         return "index";
     }
 	
